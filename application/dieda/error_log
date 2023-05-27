@@ -1,0 +1,3 @@
+[02-Sep-2015 17:30:30 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/randus/public_html/application/dieda/uploader.php on line 3
+[02-Sep-2015 17:30:39 Etc/GMT] PHP Fatal error:  Class 'Retreaver' not found in /home/randus/public_html/application/dieda/session.php on line 3
+[02-Sep-2015 17:30:43 Etc/GMT] PHP Fatal error:  Class 'Retreaver' not found in /home/randus/public_html/application/dieda/session.php on line 3

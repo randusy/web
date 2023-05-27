@@ -1,0 +1,19 @@
+@media only screen and (min-width: 150px) 
+{
+	#header div{
+	width: 100%;
+	} 
+	#containerLeft
+	{ 
+		width: 100%; 
+	}
+	#containerRight
+	{
+		width: 100%; 
+	}
+	.center
+	{
+		width: 100%;  
+		margin: 10px 0px;   	
+	}
+}

@@ -1,0 +1,2 @@
+[22-Sep-2015 07:55:28 Etc/GMT] PHP Notice:  Use of undefined constant T - assumed 'T' in /home/randus/public_html/application/template/title.php on line 3
+[22-Sep-2015 07:55:33 Etc/GMT] PHP Fatal error:  Class 'Day' not found in /home/randus/public_html/application/template/footer.php on line 4

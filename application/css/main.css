@@ -1,0 +1,103 @@
+@media only screen and (min-width: 769px)
+{
+#header,#footer
+{
+	padding: 10px; 
+	overflow: auto;   
+	color: rgb(255,255,255);
+} 
+#header div{
+	width: 24%;
+} 
+#loginForm
+{
+	background: rgba(167,199,214,1);
+	color: rgb(0,0,0);
+	width: 250px;
+	position: fixed;
+	z-index: 2000;
+}
+#containerLeft
+{ 
+	width: 60%;
+	border: thin solid gray;
+	margin: 1%;
+	position: relative;
+}
+#containerRight
+{
+	width: 31.5%;
+	border: thin solid gray;
+	margin: 1%;
+	position: relative;
+} 
+/*The rules of the navigation panel start here*/
+#navigation
+{
+	padding:10px;
+	position: fixed; 
+	margin-top:0px;
+	margin-left:  10%;
+	width:80%; 
+	z-index: 5000;
+	-moz-border-radius: 0 0 20px 20px;
+	 -webkit-border-radius: 0 0 20px 20px;
+	 border-radius: 0 0 20px 20px;
+	 box-shadow: 0px 8px 20px rgba(255,255,255,0.9);
+	 background: blue;
+}
+#navigation button
+{
+	padding: 0px;
+	height: 25px;
+	background: rgba(163,200,214,0.9);
+}
+#navigation button:hover
+{
+	background: rgba(255,13,0,0.9);
+}
+#navigation ul li ul
+{
+	display:none;	
+}
+#navigation ul li,#links li
+{
+	display: inline;
+	margin-left: 10px;
+}
+#links 
+{
+	padding: 5px;width:70%;
+	position: relative; margin: 5px auto; 
+}
+#links li:hover
+{
+	background: rgba(0,0,0,0.6);
+	padding: 3px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	color : rgb(255,255,255);
+}
+/*The rules of the navigation panel ends here*/
+#signUpForm
+{
+	width: 30%;  
+	margin: 10px auto;
+	position: relative;
+}
+.cvTable
+{
+	margin: 2%;
+	width: 60%;
+}
+.cvTable li
+{
+	color : #000000;
+	text-decoration: none;
+	list-style: square;
+}
+
+}
+

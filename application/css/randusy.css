@@ -1,0 +1,333 @@
+/*Classes starts here*/
+.overlay
+{ 
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	z-index: 5000;
+}
+.pad5
+{
+	padding: 5px;
+}
+.pad10
+{
+	padding: 10px;
+}
+.pad20
+{
+	padding: 20px;
+}
+.marg5
+{
+	padding: 5px;
+}
+.marg10
+{
+	padding: 10px;
+}
+.marg20
+{
+	padding: 20px;
+}
+.hide
+{
+	display: none;
+}
+.banner
+{ 
+	height: 300px; 
+}
+.center
+{
+	width: 99%; 
+	position: relative;
+	margin: 10px auto;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: solid thin gray;
+	margin-top : 10px;	
+}
+.floatRight
+{
+	float:right;
+}
+.floatNone
+{
+	float:none;
+}
+.floatLeft
+{
+	float:left;
+}
+.centerText
+{ 
+	text-align: center;
+}
+.whiteText
+{
+	color: white;	
+}
+.white
+{
+	background: white;
+}
+.coloTextBlue
+{
+	color: #0B4A6E;
+}
+.show
+{
+	display: block;
+}
+.backShadowBread 
+{ 
+	border-radius: 20px 20px 0px 0px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	box-shadow: 0px 8px 10px rgba(0,0,0,0.9);
+}
+.backShadowRounded
+{ 
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	box-shadow: 0px 8px 10px rgba(0,0,0,0.9);
+} 
+.border
+{ 
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px; 
+	padding: 1%;
+} 
+.fitWidhtHeight
+{
+	width : 100%;
+	height : 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.noMargAndPad
+{
+	margin: 0px;
+	padding: 0px;
+}
+.whitePictureBackground
+{
+	background: url("../images/contentbg.jpg");
+	background-repeat: repeat;
+}
+.positionAbsolute
+{
+	position:absolute;
+}
+.positionRelative
+{
+	position:relative;
+}
+.backgroundGradient
+	{
+		 background: rgb(168,198,215); /*For browsers that do not support gradients */
+    	background: -webkit-linear-gradient(rgb(168,198,215), rgb(0,102,255)); /* For Safari 5.1 to 6.0*/  
+   	 	background: -o-linear-gradient(rgb(168,198,215), rgb(0,102,255)); /* For Opera 11.1 to 12.0  */
+    	background: -moz-linear-gradient(rgb(168,198,215), rgb(0,102,255)); /* For Firefox 3.6 to 15 */
+    	background: linear-gradient(rgb(168,198,215), rgb(0,102,255)); /* Standard syntax */
+    	/*background: -webkit-radial-gradient(white,orange,white,yellow,green);
+    	background: -o-radial-gradient(white,orange,white,yellow,green);
+    	background: -moz-radial-gradient(white,orange,white,yellow,green);
+    	background: radial-gradient(white,orange,white,yellow,green); */
+	}
+.dominantColor
+{
+	background: rgba(255,255,255); /*For browsers that do not support gradients */
+	background: -webkit-linear-gradient(to right,rgba(0,255,53,0.4),rgba(255,255,255,0.9),rgba(255,236,0,0.5)); /* For Safari 5.1 to 6.0*/  
+   	 	background: -o-linear-gradient(to right,rgba(0,255,53,0.4),rgba(255,255,255,0.9),rgba(255,236,0,0.5)); /* For Opera 11.1 to 12.0  */
+    	background: -moz-linear-gradient(to right,rgba(0,255,53,0.4),rgba(255,255,255,0.9),rgba(255,236,0,0.5)); /* For Firefox 3.6 to 15 */
+    	background: linear-gradient(to right,rgba(0,255,53,0.4),rgba(255,255,255,0.9),rgba(255,236,0,0.5)); /* Standard syntax */
+}
+.textOverFlow
+{
+	white-space: nowrap;
+	overflow: hidden;
+	/*text-overflow: clip;*/
+	text-overflow: ellipsis;
+}
+.rotate90
+{
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */
+    transform: rotate(90deg);
+}
+.scaleDiv
+{
+	-ms-transform: scale(2,3); /* IE 9 -ms-transform: scale(width*number,height*number) */
+    -webkit-transform: scale(2,3); /* Safari */
+    transform: scale(2,3);
+}
+.skewYDiv
+{
+	-ms-transform: skewY(20deg); /* IE 9 */
+    -webkit-transform: skewY(20deg); /* Safari */
+    transform: skewY(20deg);
+}
+.skewXDiv
+{
+	-ms-transform: skewX(20deg); /* IE 9 */
+    -webkit-transform: skewX(20deg); /* Safari */
+    transform: skewX(20deg);
+}
+.skewDiv
+{
+	 -ms-transform: skew(20deg, 10deg); /* IE 9 */
+    -webkit-transform: skew(20deg, 10deg); /* Safari */
+    transform: skew(20deg, 10deg);
+}
+.3dRotateX150 {
+    -webkit-transform: rotateX(150deg); /* Safari */
+    transform: rotateX(150deg); /* Standard syntax */
+}
+.3dRotateY150 {
+    -webkit-transform: rotateY(150deg); /* Safari */
+    transform: rotateY(150deg); /* Standard syntax */
+}
+.3dRotateZ {
+    -webkit-transform: rotateZ(90deg); /* Safari */
+    transform: rotateZ(90deg); /* Standard syntax */
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    /*<div class="dropdown">
+  	<span>Mouse over me</span>
+  	<div class="dropdown-content">
+    <p>Hello World!</p>
+  	</div>
+	</div>*/
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*Classes Ends Here*/
+ 
+/*Styles for The Load Dialog End*/
+[type='text'],[type='email'],[type='number'],[type="password"],[type="search"]
+{
+	 border-radius: 5px; 
+	 -moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;  
+	height:30px;
+}
+[type='submit'],[type='button'],button
+{
+	 background:rgba(255,13,0,0.9);	
+	 height:35px; 
+	 color:white;
+	 font-weight:bold;    
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; 
+	padding:3px; 
+	margin: 3px;
+}
+[type='submit']:hover,[type='button']:hover,button:hover
+{
+	background:rgba(255,13,0,0.6);
+	/*box-shadow: 0px 8px 20px rgba(255,255,255,0.9);*/
+}
+[type='button']
+{
+	float: right;
+}
+h4
+{
+	text-align: center;
+	
+}
+[type="password"]:focus,[type="text"]:focus,[type='email']:focus,[type='number']:focus,[type="password"]:focus
+{
+	background: #FFFFFF;
+	color: #000000;
+	font-weight: bold;
+	font-style: italic; 
+}
+div,aside,section,ul,ol,figure,fieldset,form,select
+{
+	box-sizing: border-box;
+}
+li,[type='submit'],[type='button'], button,a
+{
+	cursor: pointer;
+}
+li,a
+{
+	color: #005599;	
+}
+li:visited
+{
+	color: purple;
+}
+li:hover
+{
+	color: #0000FF;
+	text-decoration:underline;
+}
+body
+{
+	font-family:"Times new Roman",serif; 
+	font-size: 16 px;
+	margin: 0px; 
+	padding: 0px;
+	background: rgba(168,198,215,1.0); 
+	text-align: left; 
+}
+div,h1,h2,h3,img,aside,section,ul,ol,figure,fieldset,input,form,select
+{
+ margin: 0px; padding: 0px;	overflow: auto; 
+}
+h1,h2,h3
+{
+	font-family:Georgia, sans-serif; text-align: center;
+}
+div,img,aside,section,ul,ol,figure,fieldset
+{
+	display:block;   
+}
+img
+{
+	width:100%;	
+}
+/*standard rules for the website ends here*/
+
+#load img
+{
+	margin : 20% 50%;
+	width : 50px; height:50px;	
+}
+#load img
+{
+	position: relative;
+	margin : 50vh 50%;
+	width : 50px; height:50px; 
+}
